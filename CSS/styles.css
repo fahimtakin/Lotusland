@@ -31,9 +31,12 @@ textarea{
   background-color: #51c2d5;
 }
 h1{
+  text-align: center;
 
   margin-top: 35px;
   padding: 0;
+  border-right: 10px;
+  margin-right: 30px
 
 }
 
@@ -57,7 +60,8 @@ hr {
 
 }
 
-div{
+.toppart{
+  margin-top: 20px;
   position: relative;
 
 }
@@ -66,18 +70,119 @@ div{
 
   display: inline-block;
   position: absolute;
-  left: 1540px;
-  top: 30px;
+  right: 4.5rem;
+  top: 25px;
+
   margin-left: 30px;
 
 }
 
 
 
-audio {
+.audiopos {
 
   position: absolute;
-  left: 1500px;
-  margin-left: 30px;
+  right: 2.5rem;
 
+}
+
+@media screen and (max-width:1100px) {
+
+
+
+  .toppart{
+    margin-top: 10%;
+    margin-bottom: 6rem;
+    position: relative;
+
+  }
+
+  .toppara{
+
+    display: inline-block;
+    position: absolute;
+    right: 25%;
+    top: 6rem;
+
+    margin-left: 30px;
+
+  }
+
+
+
+  .audiopos {
+
+
+    position: absolute;
+    right: 30%;
+    top: 4rem;
+    width: 200px;
+
+  }
+}
+
+@media screen and (max-width:395px) {
+
+
+
+  .toppart{
+    margin-top: 5%;
+    margin-bottom: 8rem;
+    position: relative;
+
+  }
+
+  .toppara{
+
+    display: inline-block;
+    position: absolute;
+    right: 25%;
+    top: 10rem;
+
+    margin-left: 30px;
+
+  }
+
+
+
+  .audiopos {
+
+
+    position: absolute;
+    right: 30%;
+    top: 8rem;
+    width: 200px;
+
+  }
+}
+
+
+
+
+@media screen and (max-width:319px) {
+
+
+  .toppart{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+
+  }
+
+
+
+
+
+  .toppara{
+
+    visibility: hidden;
+  }
+
+
+
+  .audiopos {
+
+
+visibility: hidden;
+  }
 }
