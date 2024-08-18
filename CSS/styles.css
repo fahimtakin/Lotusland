@@ -87,7 +87,7 @@ ul{
   position: absolute;
   right: 4.5rem;
   top: 25px;
-
+  font-family: 'Stick', sans-serif;
   margin-left: 30px;
 
 }
@@ -124,7 +124,7 @@ ul{
     position: absolute;
     right: 25%;
     top: 6rem;
-
+    font-family: 'Stick', sans-serif;
     margin-left: 30px;
 
   }
@@ -163,7 +163,7 @@ ul{
     position: absolute;
     right: 25%;
     top: 10rem;
-
+    font-family: 'Stick', sans-serif;
     margin-left: 30px;
 
   }
