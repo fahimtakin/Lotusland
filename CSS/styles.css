@@ -129,6 +129,17 @@ ul{
 
   }
 
+  // <weight>: Use a value from 400 to 800
+// <uniquifier>: Use a unique and descriptive class name
+
+.eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 
 
   .audiopos {
